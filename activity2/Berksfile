@@ -1,0 +1,6 @@
+site :opscode
+
+cookbook "apt"
+cookbook "my_webserver", path: "cookbooks/my_webserver"
+
+#TODO 1 add tomcat and java cookbooks from opscode website

@@ -1,0 +1,4 @@
+site :opscode
+
+cookbook "apt"
+#TODO 1 add mysql cookbook

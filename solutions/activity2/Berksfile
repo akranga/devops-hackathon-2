@@ -1,0 +1,6 @@
+site :opscode
+
+cookbook "apt"
+cookbook "java"
+cookbook "tomcat"
+cookbook "my_webserver", path: "cookbooks/my_webserver"

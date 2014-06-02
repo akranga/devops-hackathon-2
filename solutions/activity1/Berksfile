@@ -1,0 +1,4 @@
+site :opscode
+
+cookbook "apt"
+cookbook "my_webserver", path: "cookbooks/my_webserver"
